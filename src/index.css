@@ -19,6 +19,7 @@ header {
 	width: 550px;
 	background: #f5f5dc;
 	margin: 0px auto 0px auto;
+	padding-top: 10px;
 	border-radius: 25px 25px 0px 0px;
 	border-top: solid #6093ac;
 	border-left: solid #6093ac;
@@ -50,7 +51,7 @@ header {
 	font-family: "inter", sans-serif;
 	font-weight: 700;
 	color: #113654;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	text-decoration: underline #113654 solid 1px;
 	margin: 0px;
 }
@@ -60,7 +61,7 @@ header {
 	font-family: "inter", sans-serif;
 	font-weight: 500;
 	color: #113654;
-	font-size: 1rem;
+	font-size: 1.15rem;
 	margin: 0px;
 	padding-top: 10px;
 }
@@ -101,7 +102,7 @@ footer {
 	color: #293264;
 	font-family: "karla", sans-serif;
 	font-weight: 700;
-	font-size: 2rem;
+	font-size: 3rem;
 	margin: 0px;
 	padding-bottom: 20px;
 }
@@ -111,7 +112,7 @@ footer {
 	color: #293264;
 	font-family: "inter", sans-serif;
 	font-weight: 500;
-	font-size: 1rem;
+	font-size: 1.05rem;
 	margin: 0;
 	padding-bottom: 30px;
 }
@@ -144,17 +145,19 @@ footer {
 }
 
 .category-label {
-	font-size: 1.15rem;
+	font-size: 1.25rem;
 	padding-bottom: 5px;
 }
 
 .category-select {
 	cursor: pointer;
 	border-radius: 5px;
-	border: solid 1px black;
+	border: solid 3px black;
 	font-family: "inter", sans-serif;
 	padding: 4px 8px 4px 8px;
 	background-color: white;
+	font-weight: 500;
+	height: 35px;
 }
 
 /* Difficulty Component */
@@ -167,7 +170,7 @@ footer {
 }
 
 .difficulty--container label {
-	font-size: 1.15rem;
+	font-size: 1.25rem;
 	padding-bottom: 5px;
 }
 
@@ -180,11 +183,12 @@ footer {
 .difficulty-button {
 	cursor: pointer;
 	border-radius: 5px;
-	border: solid 1px black;
+	border: solid 3px black;
 	font-family: "inter", sans-serif;
 	font-weight: 500;
-	padding: 4px 8px 4px 8px;
+	padding: 5px 8px 4px 8px;
 	width: 100px;
+	height: 30px;
 	background-color: white;
 }
 
@@ -216,7 +220,7 @@ footer {
 .numOfQuest--container p {
 	margin: 0;
 	padding-bottom: 5px;
-	font-size: 1.15rem;
+	font-size: 1.25rem;
 }
 
 .number-options-container {
@@ -238,6 +242,7 @@ footer {
 	cursor: pointer;
 	color: black;
 	padding: 2px 8px 2px 6px;
+	font-size: 1.15rem;
 }
 
 /* Questions Component */
@@ -247,7 +252,7 @@ footer {
 	justify-content: center;
 	width: 550px;
 	margin: auto;
-	padding: 5px 75px 0px 75px;
+	padding: 5px 50px 0px 50px;
 	background: #f5f7fb;
 	border-left: solid #6093ac;
 	border-right: solid #6093ac;
@@ -260,7 +265,7 @@ footer {
 }
 
 .question-item h1 {
-	font-size: 1rem;
+	font-size: 1.15rem;
 	font-weight: 700;
 	font-family: "karla", sans-serif;
 }
@@ -276,13 +281,13 @@ footer {
 	cursor: pointer;
 	flex-grow: 1;
 	font-family: "inter", sans-serif;
-	font-weight: 500;
-	font-size: 0.625rem;
-	line-height: 12px;
+	font-weight: 600;
+	font-size: 0.8rem;
+	line-height: 14px;
 	text-align: center;
 	border: solid 0.75px #4d5b9e;
 	border-radius: 10px;
-	padding: 5px;
+	padding: 6px 5px 5px 5px;
 	margin: 5px 0px 15px;
 }
 
@@ -327,7 +332,7 @@ footer {
 	color: #f5f7fb;
 	font-family: "inter", sans-serif;
 	font-weight: 600;
-	font-size: 0.75rem;
+	font-size: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;

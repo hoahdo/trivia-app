@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - cant pass name of category into state FIXED
 // - special chars in answers are encoded FIXED
 // - some combination of settings has less questions than what is retrievable
-// - difficulty buttons dont show which one was clicked
+// - difficulty buttons dont show which one was clicked (persist)
 
 // Features Added:
 // - answer shuffler to randomize layout
@@ -29,10 +29,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - difficulty selector
 // - number of questions selector
 // - button to play again with same settings
-// - button to choose new settings
+// - button to choose new settings at main menu
+// - display settings on top of page
+// - add button to play again with same settings
+// - allow users to choose their settings
+// - add button to choose new settings
 
 // Future Features:
-// - add button to play again with same settings
-// - add button to choose new settings
-// - allow users to choose their settings
-// - display settings on top of page
+// - add click effects to buttons
+// - add true random play-again button
+// - add settings reset button

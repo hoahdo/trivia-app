@@ -20,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - special chars in answers are encoded FIXED
 // - some combination of settings has less questions than what is retrievable
 // - difficulty buttons dont show which one was clicked (persist)
+// - categories dont update in top right in different browsers FIXED
 
 // Features Added:
 // - answer shuffler to randomize layout
@@ -39,7 +40,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - add click effects to buttons
 // - add true random play-again button
 // - add settings reset button
-// - categories dont update in top right
 // - alphabetize the categories
 // - update api call to handle when user selects 
 //   	more questions than database can serve

@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // Current Bugs:
 // - game shuffles answers on results page FIXED
 // - answers have to be de-selected before FIXED
-//   selecting another answer
+//   	selecting another answer
 // - game doesnt load new Qs when Play Again is hit FIXED
 // - move fetch to questions page FIXED
 // - special chars in questons are encoded FIXED
@@ -39,3 +39,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - add click effects to buttons
 // - add true random play-again button
 // - add settings reset button
+// - categories dont update in top right
+// - alphabetize the categories
+// - update api call to handle when user selects 
+//   	more questions than database can serve
+// - remove underline on Category and Difficulty
+// - auto adjust to mobile screen

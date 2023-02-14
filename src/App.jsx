@@ -16,7 +16,9 @@ function App() {
 	});
 
 	function changeCategory(event) {
-		const { value, text } = event.target;
+		const { value } = event.target;
+		const index = event.nativeEvent.target.selectedIndex;
+		const { text } = event.nativeEvent.target[index];
 		setSettings((prevSettings) => {
 			return {
 				...prevSettings,

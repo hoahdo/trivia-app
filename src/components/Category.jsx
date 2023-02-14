@@ -6,17 +6,26 @@ function Category({ settings, changeCategory }) {
 	React.useEffect(() => {
 		fetch("https://opentdb.com/api_category.php")
 			.then((response) => response.json())
-			.then((data) => setCategory(data.trivia_categories));
+			.then((data) => {
+				const sortedData = data.trivia_categories;
+				sortedData.sort((a, b) => {
+					if (a.name < b.name) {
+						return -1;
+					}
+					if (a.name > b.name) {
+						return 1;
+					}
+					return 0;
+				});
+				setCategory(sortedData);
+			});
 	}, []);
+
 
 	function CategoryElements() {
 		return category.map((item, key) => {
 			return (
-				<option
-                    key={key}
-                    id={item.name}
-                    value={`&category=${item.id}`}
-				>
+				<option key={key} id={item.name} value={`&category=${item.id}`}>
 					{item.name}
 				</option>
 			);
@@ -31,13 +40,10 @@ function Category({ settings, changeCategory }) {
 			<select
 				id="category-dropdown"
 				name="category"
-                className="category-select"
-                onChange={(event) => changeCategory(event)}
+				className="category-select"
+				onChange={(event) => changeCategory(event)}
 			>
-                <option
-                    id="Any"
-                    value=""
-                >
+				<option id="Any" value="">
 					Any Category
 				</option>
 				{CategoryElements()}

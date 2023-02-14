@@ -22,6 +22,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - difficulty buttons dont show which one was clicked (persist)
 // - categories dont update in top right in different browsers FIXED
 // - auto adjust to mobile screen viewport FIXED
+// - remove underline on Category and Difficulty FIXED
+// - alphabetize the categories FIXED
 
 // Features Added:
 // - answer shuffler to randomize layout
@@ -41,7 +43,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - add click effects to buttons
 // - add true random play-again button
 // - add settings reset button
-// - alphabetize the categories
 // - update api call to handle when user selects 
 //   	more questions than database can serve
-// - remove underline on Category and Difficulty

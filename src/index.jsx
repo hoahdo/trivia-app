@@ -21,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - some combination of settings has less questions than what is retrievable
 // - difficulty buttons dont show which one was clicked (persist)
 // - categories dont update in top right in different browsers FIXED
+// - auto adjust to mobile screen viewport FIXED
 
 // Features Added:
 // - answer shuffler to randomize layout
@@ -44,4 +45,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - update api call to handle when user selects 
 //   	more questions than database can serve
 // - remove underline on Category and Difficulty
-// - auto adjust to mobile screen

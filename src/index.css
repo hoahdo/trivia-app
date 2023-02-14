@@ -10,6 +10,7 @@ font-family: 'Karla', sans-serif;
 body {
 	background: lightblue;
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 header {
@@ -186,7 +187,7 @@ footer {
 	border: solid 3px black;
 	font-family: "inter", sans-serif;
 	font-weight: 500;
-	padding: 5px 8px 4px 8px;
+	padding: 4px 8px 4px 8px;
 	width: 100px;
 	height: 30px;
 	background-color: white;

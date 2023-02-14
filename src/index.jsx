@@ -45,3 +45,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // - add settings reset button
 // - update api call to handle when user selects 
 //   	more questions than database can serve
+// - implement slider so user can select questions

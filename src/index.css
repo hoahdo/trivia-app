@@ -9,7 +9,8 @@ font-family: 'Karla', sans-serif;
 
 body {
 	background: lightblue;
-    margin: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 header {

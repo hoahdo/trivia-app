@@ -124,6 +124,9 @@ Things I learned:
 ## Resources
 * https://bost.ocks.org/mike/shuffle/
 * https://stackoverflow.com/questions/48879342/what-s-the-difference-between-react-event-and-dom-event
+* https://reactjs.org/docs/forms.html
+* https://beta.reactjs.org/reference/react-dom/components/input
+* https://beta.reactjs.org/reference/react-dom/components/select
 
 <!--- Licensing Section --->
 

@@ -50,19 +50,17 @@ You will need `npm` and `vite` installed globally on your machine.
 
 ## Usage
 
-Pick desired settings
+### Pick desired settings
 
 <img src="https://user-images.githubusercontent.com/94433620/223358671-c9ea6008-11fa-427c-b2c5-a5da6a8a872c.png" width="300" />
 
-Answering trivia questions
+### Answering trivia questions
 
 <img src="https://user-images.githubusercontent.com/94433620/223359805-9a962e76-b597-4ccd-afbc-48bfb2abcd9c.png" width="300" />
 
-Results page
+### Results page
 
 <img src="https://user-images.githubusercontent.com/94433620/223359815-fd51edb9-df45-449e-b8ac-4f7bfc73ab57.png" width="300" />
-
-
 
 
 <!--- Contributing Section--->
